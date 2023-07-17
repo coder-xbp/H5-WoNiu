@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子产品调查表</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>American Metric 电子产品调查表</h1>
+        <form action="">
+            <label for="username">姓名：</label>
+            <input type="text" name="username" id="username" required><br>
+            <label for="time">购买日期：</label>
+            <input type="text" name="time" required id="time">
+            <label>年</label>
+            <select name="year" id="year">
+                <option value="">1月</option>
+            </select>
+            <label for="year">月</label>
+            <select name="year" id="ri">
+                <option value=""></option>
+            </select>
+            <label for="ri">日</label><br>
+            <label for="emale">电子邮件地址：</label>
+            <input type="email" id="emale" required placeholder="www.baidu.com"><br>
+            <label for="num">手机号码：</label>
+            <input type="number" id="num" required placeholder="输入必须是以13/15/18开头的数字"><br>
+            <label for="mulu">您是否查看过我们的在线产品目录？</label>
+            <input type="radio" name="1" checked id="mulu">是
+            <input type="radio" name="1">否<br>
+            如果查看过，您对哪些产品有兴趣购买？（选择提供的产品）<br>
+            <input type="checkbox" id="2">
+            <label for="2">大屏幕电视机</label>
+            <input type="checkbox" id="3">
+            <label for="3">音频设备</label>
+            <input type="checkbox" id="4">
+            <label for="4">视频设备</label>
+            <input type="checkbox" id="5">
+            <label for="5">相机</label>
+            在填写订单之前，您还有什么问题、意见或建议？<br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="您的输入：" required></textarea><br>
+            <input type="submit" value="提交">
+            <input type="reset" 重置>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.box {
+    margin: 100px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+
+    .box1 {
+        border-bottom: 1px dashed #ccc;
+        padding: 5px 10px;
+
+        h1 {
+            font-weight: normal;
+            color: rgb(102, 102, 102);
+            font-size: 16px;
+            width: 100px;
+            display: inline-block;
+        }
+
+        a {
+            color: rgb(102, 102, 102);
+            font-size: 16px;
+            float: right;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+
+    ul {
+        border-bottom: 1px dashed #ccc;
+
+        li {
+            height: 33px;
+            line-height: 33px;
+            margin-left: 10px;
+            box-sizing: border-box;
+
+            a {
+                color: rgb(102, 102, 102);
+
+                b {}
+            }
+            :hover{
+            color: red;
+            }
+        }
+        
+    }
+
+    table {
+        text-align: center;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-collapse: collapse;
+
+        tr {
+            height: 75px;
+
+            td {
+                
+                border: #ccc 1px solid;
+                width: 75px;
+                width: 75px;
+
+                a {
+                    color: black;
+                }
+
+                :hover {
+                    color: red;
+                }
+
+                p {
+                    margin: auto;
+                    width: 25px;
+                    height: 25px;
+                    
+                }
+                
+            }
+           
+        }
+        :hover{
+            cursor: pointer;
+        }
+
+        tr:nth-of-type(1) {
+            td:nth-of-type(1) {
+                background-image: url(../17/作业/img/coupon.png);
+                background-repeat: no-repeat;
+                background-position:  64px 0;
+                p:nth-of-type(1) {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px 0px;
+                }
+            }
+
+            td:nth-of-type(2) {
+                p:nth-of-type(1) {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -25px;
+                }
+            }
+
+            td:nth-of-type(3) {
+                p:nth-of-type(1) {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -50px;
+                }
+            }
+
+            td:nth-of-type(4) {
+                p:nth-of-type(1) {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -75px;
+                }
+            }
+        }
+
+        tr:nth-of-type(2) {
+            td:nth-of-type(1) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -100px;
+                }
+            }
+            td:nth-of-type(2) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -125px;
+                }
+            }
+            td:nth-of-type(3) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -150px;
+                }
+            }
+            td:nth-of-type(4) {
+                background-image: url(../17/作业/img/coupon.png);
+                background-repeat: no-repeat;
+                background-position:  64px 0;
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -175px;
+                }
+            }
+        }
+        tr:nth-of-type(3) {
+            td:nth-of-type(1) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -200px;
+                }
+            }
+            td:nth-of-type(2) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -225px;
+                }
+            }
+            td:nth-of-type(3) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -250px;
+                }
+            }
+            td:nth-of-type(4) {
+                p {
+                    background-image: url(../17/作业/img/sprite.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -275px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .box3{
+        // width: 300px;
+       text-align: center;
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器练习</title>
+    <style>
+        /* class为opt后面紧挨着的li元素 */
+        [class=opt]+li {
+            background-color: red;
+        }
+
+        /* class为op后面紧挨着的li元素后面紧挨的li元素 */
+        [class=op]+li+li {
+            background-color: aqua;
+        }
+
+        /* class为opt的元素后面所有的li元素 */
+        [class=opt]~li {
+            background-color: blue;
+        }
+
+        /* ul元素下面所有的li元素紧挨着的第一个li元素 */
+        ul li+li {
+            background-color: antiquewhite;
+        }
+
+        /* div元素的直接子元素ul的直接子元素li后续所有的兄弟li */
+        div>ul>li~li {
+            background-color: yellowgreen;
+        }
+
+        /* id为box的元素直接子元素ul的直接子元素li */
+        [id=box]>ul>li {
+            background-color: beige;
+        }
+
+        /* id为box的元素的直接子元素ul的下面所有的a元素 */
+        [id=box]>ul a {
+            background-color: aqua;
+        }
+
+        /* div元素下面的ul，下面的li，下面的所有a元素 */
+        div ul li a{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <ul>
+            <li class="op">
+                课程
+            </li>
+            <li>
+                作业
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </li>
+            <li class="opt">
+                笔记
+                <ol>
+                    <li>点赞</li>
+                    <li>收藏</li>
+                    <li>投币</li>
+                </ol>
+            </li>
+            <li>
+                <a href="">考试</a>
+            </li>
+            <li>
+                <a href="">睡觉</a>
+            </li>
+        </ul>
+        <a href="hehe">hehe</a>
+    </div>
+</body>
+
+</html>
